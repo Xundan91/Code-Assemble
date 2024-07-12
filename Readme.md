@@ -28,7 +28,7 @@ createCodeContext(process.cwd(), {
   //user can ignore the file for Faster exceution
   
   ignoreFiles: ['.png', '.svg'],        //optional
-  outputFileName: 'code_context.txt'    //Mandetory
+  outputFileName: 'code_context.txt'    //mandatory
 });
 
 ```
