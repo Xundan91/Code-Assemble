@@ -19,15 +19,16 @@ npm install code-assemble
 
 ```
 const createCodeContext = require('code-assemble');
-const path = require('path');
 
 createCodeContext(process.cwd(), {
     //user can add Directory by there choice
-  directories: ['components', 'models,], //optional
+
+  directories: ['components', 'models'], //optional
 
   //user can ignore the file for Faster exceution
   
   ignoreFiles: ['.png', '.svg'],        //optional
+
   outputFileName: 'code_context.txt'    //mandatory
 });
 
@@ -41,7 +42,7 @@ createCodeContext(process.cwd(), {
 # By Bash 
 
 ```
-code-assemble <projectDir> configFile>
+code-assemble '<projectDirPath>' '<configFilePath>'
 
 // Expected Output
 
@@ -52,7 +53,7 @@ Code context has been written to <projectDir><configFilePath>outputFileName.txt
 ## By Node Command
 
 ```
-node <configFile>
+node <configFile>.js
 
 // Expected Output
 
