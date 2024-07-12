@@ -6,11 +6,17 @@
   "bin": {
     "code-assemble": "./bin/cli.js"
   },
-  "keywords": ["Faster Debugging", "Faster Analysis", "Enhanced Documentation", "Improved Code Review", "Integration with AI Tools", "Consistency in Analysis", "Streamlined Code Management", "Simplified Code Understanding", "Easier Code Refactoring", "Better Onboarding for New Developers"],
+  "keywords": ["Faster Copy","Faster Debugging", "Faster Analysis", "Enhanced Documentation", "Improved Code Review", "Integration with AI Tools", "Consistency in Analysis", "Streamlined Code Management", "Simplified Code Understanding", "Easier Code Refactoring", "Better Onboarding for New Developers"],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Xundan91/Code-Assemble.git"
+  },
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/Xundan91/Code-Assemble/blob/main/Readme.md",
+
   "author": "Kundan",
   "license": "ISC",
   "dependencies": {
