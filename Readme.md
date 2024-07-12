@@ -8,13 +8,11 @@ code-assemble is a Node.js package designed to aggregate code from various direc
 
 ```
 npm install -g code-assemble
-
 ```
 ## Install Locally
 
 ```
 npm install code-assemble
-
 ```
 
 ## Make config File In project directory
@@ -24,7 +22,7 @@ const createCodeContext = require('code-assemble');
 const path = require('path');
 
 createCodeContext(process.cwd(), {
-    //user can add Directory of there choice
+    //user can add Directory by there choice
   directories: ['components', 'models,], //optional
 
   //user can ignore the file for Faster exceution
@@ -43,8 +41,7 @@ createCodeContext(process.cwd(), {
 # By Bash 
 
 ```
-
-code-assemble <projectDir> configFile><
+code-assemble <projectDir> configFile>
 
 // Expected Output
 
@@ -62,15 +59,15 @@ node <configFile>
 Code context has been written to <projectDir><configFilePath>outputFileName.txt
 
 
-
+```
 ## Extra/Optional Arguments
 
 <table>
   <tr>
     <th>S.no </th>
     <th>Name</th>
-    <th>Type</th>
-    <th>How it Works</th>
+<!--     <th>Type</th> -->
+<!--     <th>How it Works</th> -->
   </tr>
   <tr>
     <td>1</td>
