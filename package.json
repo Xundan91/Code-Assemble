@@ -1,0 +1,19 @@
+{
+  "name": "code-assemble",
+  "version": "1.0.0",
+  "description": "A tool to aggregate code context for Directory{nextjs , react ,vite} projects",
+  "main": "lib/index.js",
+  "bin": {
+    "code-assemble": "./bin/cli.js"
+  },
+  "keywords": ["Faster Debugging", "Faster Analysis", "Enhanced Documentation", "Improved Code Review", "Integration with AI Tools", "Consistency in Analysis", "Streamlined Code Management", "Simplified Code Understanding", "Easier Code Refactoring", "Better Onboarding for New Developers"],
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kundan",
+  "license": "ISC",
+  "dependencies": {
+
+  }
+}
